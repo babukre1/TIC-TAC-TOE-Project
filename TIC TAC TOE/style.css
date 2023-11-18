@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.top {
+  height: 50px;
+  width: 93%;
+  margin: 15px auto;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+
+}
+.player-turn {
+  height: fit-content;
+  width: fit-content;
+  padding: 4px 8px;
+  background-color: #b0abab;
+  font-size: 20px;
+}
+.replay {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+
+}
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.tic-tac-toe {
+  height: 450px;
+  width: 330px;
+  background-color: rgb(1, 97, 50);
+  margin: auto auto;
+  margin-top: 100px;
+}
+
+.game-body {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Three columns with equal width */
+  gap: 10px;
+  /* Adjust the gap between boxes */
+  justify-content: center;
+  /* Center the grid horizontally */
+  align-content: center;
+  width: 300px;
+  margin: 0 auto;
+  */
+}
+
+.cell {
+  background-color: #fff;
+  height: 85px;
+  width: 85px;
+  border-radius: 6px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#stateBox {
+  font-size: 20px;
+  text-align: center;
+  background-color: #7d7d7d;
+  width: fit-content;
+  padding: 4px 10px;
+  margin: 0 auto;
+
+
+}
